@@ -1,5 +1,3 @@
-package java_jdbc;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -7,10 +5,10 @@ import java.sql.SQLException;
 public class ConnectionSQLite {
 
     public static void main(String[] args) {
-	conectar();
+	initConnection();
     }
 
-    public static void conectar() {
+    public static void initConnection() {
 	Connection conexao = null;
 	try {
 	    String url = "jdbc:sqlite:sqlite_database_2022.db";
