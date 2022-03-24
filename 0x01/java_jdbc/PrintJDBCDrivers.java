@@ -1,9 +1,11 @@
+package java_jdbc;
+
 import java.sql.Driver;
 import java.sql.DriverManager;
 import java.util.Enumeration;
 
 public class PrintJDBCDrivers {
-
+    
     public static void main(String[] args) {
 	System.out.println("Lista de drivers JDBC carregados: ");
 	for (Enumeration<Driver> e = DriverManager.getDrivers(); e.hasMoreElements();) {
