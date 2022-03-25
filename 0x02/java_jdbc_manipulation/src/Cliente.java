@@ -3,9 +3,9 @@ package java_jdbc_manipulation.src;
 public class Cliente {
 
     public String nome;
-    public int idade;
-    public String CPF;
-    public String RG;
+    public Integer idade;
+    public String cpf;
+    public String rg;
 
     public String getNome() {
 	return nome;
@@ -15,27 +15,27 @@ public class Cliente {
 	this.nome = nome;
     }
 
-    public int getIdade() {
+    public Integer getIdade() {
 	return idade;
     }
 
-    public void setIdade(int idade) {
+    public void setIdade(Integer idade) {
 	this.idade = idade;
     }
 
-    public String getCPF() {
-	return CPF;
+    public String getCpf() {
+	return cpf;
     }
 
-    public void setCPF(String cPF) {
-	CPF = cPF;
+    public void setCpf(String cpf) {
+	this.cpf = cpf;
     }
 
-    public String getRG() {
-	return RG;
+    public String getRg() {
+	return rg;
     }
 
-    public void setRG(String rG) {
-	RG = rG;
+    public void setRg(String rg) {
+	this.rg = rg;
     }
 }

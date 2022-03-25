@@ -1,5 +1,5 @@
 package java_jdbc_manipulation.src;
 
-public class ClienteDAOImpl {
+public abstract class ClienteDAOImpl implements ClienteDAO {
 
 }
